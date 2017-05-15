@@ -1,1 +1,4 @@
-%h1 this is index page
+-@jobs.each do |job|
+	%h1= job.title
+	%p= job.company
+	
